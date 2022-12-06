@@ -55,6 +55,10 @@ div > p {
     padding: 0px 40px;
 }
 
+.resumo > p{
+    text-indent: 40px;
+}
+
 #lado-direito {
     padding: 20px 20px;
     width: 100vw;
