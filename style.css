@@ -134,7 +134,7 @@ display: none;
 }
 
 header > h1 {
-font-size: 32px;
+font-size: 28px;
 font-weight: 900;
 text-align: center;
 margin: 0 auto;
@@ -144,9 +144,9 @@ margin: 0 auto;
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    padding: 0px 28px;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    text-align: center;
 }
 
 #menu > ul {
@@ -164,7 +164,6 @@ margin: 0 auto;
     text-decoration: none;
     list-style: none;
     font-size: 12px;
-    text-align: justify;
     padding: 0;
     margin: 0 auto;
 }
