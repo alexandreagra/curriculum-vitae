@@ -7,10 +7,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-h2 {
-    font-weight: 500;
-}
-
 header {
     background-color: rgba(0, 0, 0, 0.860);
     color: white;
@@ -23,50 +19,47 @@ header {
 
 header > h1 {
     font-size: 48px;
-    margin-left: 80px;
+    margin-left: 40px;
     font-weight: 700;
     line-height: 40px;
+}
+
+#menu {
+    display: none;
 }
 
 #inicio {
     padding: 0;
     display: flex;
     box-sizing: border-box;
+    justify-content: space-between;
 }
 
 div {
     padding: 20px 0px;
-    text-align: justify;
-    margin-left: 20px;
+}
+
+div > h2 {
+    font-size: 32px;
+    font-weight: 500;
 }
 
 div > p {
     font-size: 20px;
+    padding-bottom: 36px;
+    text-align: justify;
 }
 
 #lado-esquerdo {
     margin: 40px auto;
-    margin-right: 16px;
-}
-
-.resumo {
-    padding: 20px 40px;
-}
-
-.formacao-academica {
-    padding: 20px 40px;
-}
-
-.formacao-academica > h2 {
-    font-size: 32px;
+    padding: 0px 40px;
 }
 
 #lado-direito {
-    padding: 0px 20px;
-    height: 100vh;
+    padding: 20px 20px;
     width: 100vw;
     margin: 0px auto;
-    background-color: rgb(230, 235, 231);
+    background-color: rgb(97, 129, 150);
     border-left: 1px solid black;
 }
 
@@ -95,7 +88,7 @@ ul > li {
     list-style: none;
     font-size: 20px;
     font-weight: 400;
-    padding: 12px 0px;
+    padding: 8px 0px;
     margin: 12px;
 }
 
@@ -105,6 +98,8 @@ ul > hr {
 
 span {
     padding: 4px 0px;
+    display: flex;
+    flex-direction: row;
 }
 
 span > a {
@@ -139,10 +134,39 @@ display: none;
 }
 
 header > h1 {
-font-size: 36px;
+font-size: 32px;
 font-weight: 900;
 text-align: center;
 margin: 0 auto;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 0px 28px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu > ul {
+    
+    margin: 0 auto;
+    padding: 0;
+}
+
+#menu > li {
+   font-weight: 700;   
+}
+
+#menu > li > a {
+    color: rgb(97, 129, 150);
+    text-decoration: none;
+    list-style: none;
+    font-size: 12px;
+    text-align: justify;
+    padding: 0;
+    margin: 0 auto;
 }
 
 section {
@@ -152,13 +176,7 @@ section {
 
 div > p {
     font-size: 16px;
-}
-
-#inicio {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    margin: 0 auto;
+    text-align: justify;
 }
 
 .resumo {
@@ -166,13 +184,13 @@ div > p {
     padding: 0 auto;
 }
 
-.formacao-academica {
-    margin: 0 auto;
-    padding: 0 auto;
+#lado-esquerdo {
+    margin-top: 0;
 }
 
-.formacao-academica > h2 {
+div > h2 {
     font-size: 24px;
+    text-align: left;
 }
 
 }
