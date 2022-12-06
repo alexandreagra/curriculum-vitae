@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 28px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.860);
+    color: white;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+header > h1 {
+    font-size: 48px;
+    margin-left: 80px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+#inicio {
+    padding: 0;
+    display: flex;
+    box-sizing: border-box;
+}
+
+div {
+    padding: 20px 0px;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+div > p {
+    font-size: 20px;
+}
+
+#lado-esquerdo {
+    margin: 40px auto;
+    margin-right: 16px;
+}
+
+.resumo {
+    padding: 20px 40px;
+}
+
+.formacao-academica {
+    padding: 20px 40px;
+}
+
+.formacao-academica > h2 {
+    font-size: 32px;
+}
+
+#lado-direito {
+    padding: 0px 20px;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px auto;
+    background-color: rgb(230, 235, 231);
+    border-left: 1px solid black;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+    border: none;
+}
+
+ul {
+    margin: 40px auto;
+    padding: 0px;
+}
+
+ul > h2 {
+    font-size: 32px;
+    padding: 0px 8px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.860);
+}
+
+ul > li {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 12px 0px;
+    margin: 12px;
+}
+
+ul > hr {
+    margin-left: 8px;
+}
+
+span {
+    padding: 4px 0px;
+}
+
+span > a {
+    color: black;
+    text-decoration: none;
+}
+
+span > box-icon {
+    padding: 0px 4px;
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+
+#reta {
+    display: none;
+}
+
+#lado-direito {
+    display: none;
+}
+
+}
+
+@media (min-width: 360px) and (max-width: 800px) {
+
+#reta {
+display: none;
+}
+
+#lado-direito {
+display: none;
+}
+
+header > h1 {
+font-size: 36px;
+font-weight: 900;
+text-align: center;
+margin: 0 auto;
+}
+
+section {
+    margin: 0 auto;
+    padding: 0px;
+}
+
+div > p {
+    font-size: 16px;
+}
+
+#inicio {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.resumo {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.formacao-academica {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.formacao-academica > h2 {
+    font-size: 24px;
+}
+
+}
