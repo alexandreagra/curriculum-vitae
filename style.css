@@ -294,14 +294,19 @@ div > h2 {
     display: none;
     position: fixed;
     top: 0;
-    margin-top: -24px;
+    width: 100%;   
+    padding-left: 8px;
     z-index: 500;
-    background-color: rgba(0, 0, 0, 0.89);
+    background-color: rgba(0, 0, 0, 0.938);
     color: white;
 }
 
 .info-modal h2 {
     color: white;
+}
+
+.info-modal span {
+    font-size: 16px;
 }
 
 .info-modal > ul > li > span > a {
@@ -323,7 +328,7 @@ div > h2 {
 .fechar {
     position: absolute;
     top: 46px;
-    right: 20px;
+    right: 24px;
     font-size: 50px;
     background-color: transparent;
     border: none;
