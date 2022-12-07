@@ -337,10 +337,11 @@ div > h2 {
     color: white;
     cursor: pointer;
     text-shadow: 1px 2px 20px black;
-    height: 52px;
+    height: 54px;
     width: 54px;
     z-index: 500;
     padding-bottom: 8px;
+    padding-right: 1px;
     border: 1px solid white;
     border-radius: 50px;
 }
