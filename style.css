@@ -294,6 +294,7 @@ div > h2 {
     display: none;
     position: fixed;
     top: 0;
+    height: 100%;
     width: 100%;   
     padding-left: 8px;
     z-index: 500;
@@ -307,6 +308,7 @@ div > h2 {
 
 .info-modal span {
     font-size: 16px;
+    padding: 0px;
 }
 
 .info-modal > ul > li > span > a {
