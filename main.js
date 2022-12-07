@@ -34,14 +34,4 @@ overInfoClose.addEventListener('click', overInfoCloseModal)
 
 function overInfoCloseModal () {
     document.querySelector('.info-modal').style.display = 'none'
-}
-
-// //CLOSE MODAL PROG
-// const closeModal = document.querySelector('.close-btn-prog')
-// closeModal.addEventListener('click', modalc)
-// const closeModalOut = document.querySelector('#prog-modal')
-// closeModalOut.addEventListener('click', modalc)
-
-// function modalc() {
-//     document.querySelector('#prog-modal').style.display = 'none'
-// }
+} 
