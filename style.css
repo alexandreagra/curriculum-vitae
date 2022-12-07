@@ -8,13 +8,13 @@
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.860);
-    color: white;
+    color: rgb(255, 255, 255);
+    background-color: black;
     height: 120px;
     width: 100%;
     display: flex;
-    align-items: center;
-    text-align: justify;
+    flex-direction: column;
+    justify-content: center;
 }
 
 header > h1 {
@@ -24,7 +24,7 @@ header > h1 {
     line-height: 40px;
 }
 
-#menu {
+nav > ul {
     display: none;
 }
 
@@ -63,8 +63,9 @@ div > p {
     padding: 20px 20px;
     width: 100vw;
     margin: 0px auto;
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(233, 233, 233);
     border-left: 1px solid black;
+    text-align: justify;
 }
 
 hr {
@@ -115,6 +116,20 @@ span > box-icon {
     padding: 0px 4px;
 }
 
+.interesses {
+    text-indent: 40px;
+}
+
+.desenvolvi {
+    text-indent: 40px;
+}
+
+#overs {
+    display: none;
+}
+
+
+
 @media (min-width: 800px) and (max-width: 1200px) {
 
 header {
@@ -127,39 +142,53 @@ header {
     display: none;
 }
 
-#menu {
-    background-color: rgba(0, 0, 0, 0.048);
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    padding: 0px 32px;
-    justify-content: space-between;
-    align-items: center;
+header > h1 {
+    font-size: 28px;
+    font-weight: 900;
     text-align: center;
-}
-
-#menu > ul {
+    margin: 24px auto;
+    color: white;
+    }
     
-    margin: 0 auto;
-    padding: 0;
-}
-
-#menu > li {
-   font-weight: 700;   
-}
-
-#menu > li > a {
-    color: rgb(97, 129, 150);
-    text-decoration: none;
-    list-style: none;
-    font-size: 16px;
-    padding: 0;
-    margin: 0 auto;
-}
-
-#menu a:hover{
-    text-shadow: 2px 1px 20px rgba(0, 0, 0, 0.253);
-}
+    header {
+        color: rgb(0, 0, 0);
+        background-color: black;
+        height: auto;
+    }
+    
+    nav {
+        background-color: rgb(243, 243, 243);
+        margin: 0;
+        width: 100%;
+    }
+    
+    nav > ul {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    
+    nav > ul > li {
+       font-weight: 700;   
+    
+    }
+    
+    nav > ul > li > a {
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        list-style: none;
+        font-size: 16px;
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav > ul > li > a:hover{
+        text-shadow: 2px 1px 20px rgba(0, 0, 0, 0.253);
+        transform: scale(1.1);
+    }
 
 #lado-direito {
     display: none;
@@ -181,39 +210,45 @@ header > h1 {
 font-size: 28px;
 font-weight: 900;
 text-align: center;
-margin: 0 auto;
+margin: 24px auto;
+color: white;
 }
 
-#menu {
+header {
+    color: rgb(0, 0, 0);
+    background-color: black;
+    height: auto;
+}
+
+nav {
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+}
+
+nav > ul {
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
+    margin: 0 20px;
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.048);
 }
 
-#menu > ul {
-    
-    margin: 0 auto;
-    padding: 0;
-}
-
-#menu > li {
+nav > ul > li {
    font-weight: 700;   
+   margin: 0 auto;
 }
 
-#menu > li > a {
-    color: rgb(97, 129, 150);
+nav > ul > li > a {
+    color: rgb(0, 0, 0);
     text-decoration: none;
     list-style: none;
     font-size: 12px;
     padding: 0;
-    margin: 0 auto;
+    margin: 0;
 }
 
-#menu a:hover{
+nav > ul > li > a:hover{
     text-shadow: 2px 1px 20px rgba(0, 0, 0, 0.253);
     transform: scale(1.1);
 }
