@@ -116,16 +116,12 @@ span > box-icon {
     padding: 0px 4px;
 }
 
-.interesses {
+.interesses-text {
     text-indent: 40px;
 }
 
 .desenvolvi {
     text-indent: 40px;
-}
-
-#overs {
-    display: none;
 }
 
 
@@ -206,18 +202,35 @@ display: none;
 display: none;
 }
 
-header > h1 {
-font-size: 28px;
-font-weight: 900;
-text-align: center;
-margin: 24px auto;
-color: white;
+#inicio {
+    margin-top: 160px;
+}
+
+.scroll-baixo header {
+    transform: translate3d(0, -100%, 0);
+}
+
+.scroll-cima header {
+    filter: drop-shadow(0 -10px 20px rgba(0, 0, 0, 0.363));
 }
 
 header {
     color: rgb(0, 0, 0);
     background-color: black;
     height: auto;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 300;
+    transition: all 300ms ease-in-out;
+}
+
+header > h1 {
+font-size: 28px;
+font-weight: 900;
+text-align: center;
+margin: 24px auto;
+color: white;
 }
 
 nav {
@@ -275,6 +288,58 @@ div > p {
 div > h2 {
     font-size: 24px;
     text-align: left;
+}
+
+.info-modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    margin-top: -24px;
+    z-index: 500;
+    background-color: rgba(0, 0, 0, 0.89);
+    color: white;
+}
+
+.info-modal h2 {
+    color: white;
+}
+
+.info-modal > ul > li > span > a {
+    color: white;
+}
+
+.hard-modal {
+    display: none;
+}
+
+.soft-modal {
+    display: none;
+}
+
+.interesses-modal {
+    display: none;
+}
+
+.fechar {
+    position: absolute;
+    top: 46px;
+    right: 20px;
+    font-size: 50px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-shadow: 1px 2px 20px black;
+    height: 54px;
+    width: 54px;
+    z-index: 500;
+    padding-bottom: 8px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+    
+.fechar:hover{
+    transform: scale(1.1);
 }
 
 }

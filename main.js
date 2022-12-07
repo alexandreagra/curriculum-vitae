@@ -22,14 +22,19 @@ window.addEventListener('scroll', () => {
     ultimoScroll = scrollAtual;
 })
 
-//OPEN MODAL PROG
+const overInfoOpen = document.querySelector('.info')
+overInfoOpen.addEventListener('click', overInfoModal)
 
-// const modalprog = document.querySelector('.prog-skills')
-// modalprog.addEventListener('click', openModal)
+function overInfoModal () {
+     document.querySelector('.info-modal').style.display = 'flex'
+}
 
-// function openModal() {
-//     document.querySelector('#prog-modal').style.display = 'flex'
-// }
+const overInfoClose = document.querySelector('.fechar')
+overInfoClose.addEventListener('click', overInfoCloseModal)
+
+function overInfoCloseModal () {
+    document.querySelector('.info-modal').style.display = 'none'
+}
 
 // //CLOSE MODAL PROG
 // const closeModal = document.querySelector('.close-btn-prog')
