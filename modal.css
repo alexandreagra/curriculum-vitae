@@ -6,8 +6,14 @@
     width: 100%;   
     padding-left: 8px;
     z-index: 500;
-    background-color: rgba(0, 0, 0, 0.938);
+    background-color: rgba(0, 0, 0, 0.986);
     color: white;
+    animation: appear .8s backwards;
+}
+
+.info-modal hr {
+    background-color: white;
+    margin-top: 16px !important;
 }
 
 .info-modal h2 {
@@ -22,8 +28,13 @@
 }
 
 .info-modal ul {
-    margin: 40px 0;
+    margin: 44px 0;
     margin-left: 8px;    
+}
+
+.info-modal li {
+    width: 412px;
+    margin-bottom: -8px;
 }
 
 .info-modal > ul > li > span > a {
@@ -37,15 +48,22 @@
     height: 100%;
     width: 100%;   
     z-index: 500;
-    background-color: rgba(0, 0, 0, 0.938);
+    background-color: rgba(0, 0, 0, 0.986);
     color: white;
+    animation: appear .8s backwards;
+}
+
+.hard-modal hr {
+    background-color: white;
+    margin-left: 20px !important;
+    margin-top: 16px !important;
 }
 
 .hard-modal h2 {
     color: white;
     font-size: 24px;
     padding-top: 24px;
-    margin-left: 12px;
+    margin-left: 20px;
 }
 
 .hard-modal > box-icon {
@@ -65,8 +83,6 @@
     margin-left: 0;
 } 
 
-
-
 .hard-modal span {
     font-size: 16px;
     padding: 4px;
@@ -75,6 +91,7 @@
 
 .hard-modal li {
     margin-bottom: -8px;
+    width: 412px;
 }
 
 .hard-modal > ul > li > span > a {
@@ -88,15 +105,22 @@
     height: 100%;
     width: 100%;   
     z-index: 500;
-    background-color: rgba(0, 0, 0, 0.938);
+    background-color: rgba(0, 0, 0, 0.986);
     color: white;
+    animation: appear .8s backwards;
+}
+
+.soft-modal hr {
+    background-color: white;
+    margin-left: 20px !important;
+    margin-top: 16px !important;
 }
 
 .soft-modal h2 {
     color: white;
     font-size: 24px;
     padding-top: 24px;
-    margin-left: 12px;
+    margin-left: 20px;
 }
 
 .soft-modal > box-icon {
@@ -111,8 +135,6 @@
     justify-content: space-around;
 } 
 
-
-
 .soft-modal span {
     font-size: 16px;
     padding: 4px;
@@ -120,13 +142,14 @@
 }
 
 .soft-modal ul {
-    margin: 18px 36px 18px 8px;
+    margin: 20px 36px 20px 8px;
     display: flex;
     flex-direction: column;
 }
 
 .soft-modal li {
-    margin-bottom: -8px;
+    margin-bottom: -16px;
+    width: 408px;
 }
 
 .soft-modal > ul > li > span > a {
@@ -140,8 +163,14 @@
     height: 100%;
     width: 100%;   
     z-index: 500;
-    background-color: rgba(0, 0, 0, 0.938);
+    background-color: rgba(0, 0, 0, 0.986);
     color: white;
+    animation: appear .8s forwards;
+}
+
+.interesses-modal hr {
+    background-color: white;
+    margin-top: 16px !important;
 }
 
 .interesses-modal h2 {
@@ -162,6 +191,11 @@
     margin: 18px 36px 18px 8px;
     display: flex;
     flex-direction: column;
+}
+
+.interesses-modal li {
+    margin-bottom: -8px;
+    width: 400px;
 }
 
 .interesses-modal > ul > li > span > a {
@@ -190,3 +224,4 @@
 .fechar:hover{
     transform: scale(1.1);
 }
+

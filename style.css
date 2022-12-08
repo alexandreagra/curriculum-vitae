@@ -154,7 +154,7 @@ header > h1 {
     }
     
     nav {
-        background-color: rgb(243, 243, 243);
+        background-color: white;
         margin: 0;
         width: 100%;
     }
@@ -203,6 +203,12 @@ display: none;
 display: none;
 }
 
+#modais hr {
+    display: flex;
+    margin-left: 12px;
+    width: 788px;
+}
+
 #inicio {
     margin-top: 160px;
 }
@@ -235,7 +241,7 @@ color: white;
 }
 
 nav {
-    background-color: rgb(243, 243, 243);
+    background-color: white;
     margin: 0;
 }
 
@@ -292,3 +298,15 @@ div > h2 {
 }
 
 }
+
+@keyframes appear {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
