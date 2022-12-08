@@ -89,6 +89,10 @@
     flex-direction: column;
 }
 
+.soft-modal li {
+    margin-bottom: -8px;
+}
+
 .soft-modal > ul > li > span > a {
     color: white;
 }
