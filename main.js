@@ -22,16 +22,55 @@ window.addEventListener('scroll', () => {
     ultimoScroll = scrollAtual;
 })
 
+//MODAL INFO FUNCTION
 const overInfoOpen = document.querySelector('.info')
 overInfoOpen.addEventListener('click', overInfoModal)
 
 function overInfoModal () {
      document.querySelector('.info-modal').style.display = 'flex'
+     document.querySelector('#corpo').style.overflowY = 'hidden'
 }
 
-const overInfoClose = document.querySelector('.fechar')
-overInfoClose.addEventListener('click', overInfoCloseModal)
+//MODAL HARD FUNCTION
 
-function overInfoCloseModal () {
+const overHardOpen = document.querySelector('.hard')
+overHardOpen.addEventListener('click', overHardModal)
+
+function overHardModal () {
+     document.querySelector('.hard-modal').style.display = 'flex'
+     document.querySelector('#corpo').style.overflowY = 'hidden'
+}
+
+//MODAL SOFT FUNCTION
+
+const overSoftOpen = document.querySelector('.soft')
+overSoftOpen.addEventListener('click', overSoftModal)
+
+function overSoftModal () {
+     document.querySelector('.soft-modal').style.display = 'flex'
+     document.querySelector('#corpo').style.overflowY = 'hidden'
+}
+
+//MODAL INTERESSES FUNCTION
+
+const overInteressesOpen = document.querySelector('.interesses')
+overInteressesOpen.addEventListener('click', overInteressesModal)
+
+function overInteressesModal () {
+     document.querySelector('.interesses-modal').style.display = 'flex'
+     document.querySelector('#corpo').style.overflowY = 'hidden'
+}
+
+//CLOSE MODAL FUNCTION
+const overClose = document.querySelectorAll('.fechar')
+overClose.forEach(item => {
+    item.addEventListener('click', overCloseModal)
+})
+
+function overCloseModal () {
     document.querySelector('.info-modal').style.display = 'none'
+    document.querySelector('.hard-modal').style.display = 'none'
+    document.querySelector('.soft-modal').style.display = 'none'
+    document.querySelector('.interesses-modal').style.display = 'none'
+    document.querySelector('#corpo').style.overflowY = 'scroll'
 } 

@@ -1,0 +1,151 @@
+.info-modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;   
+    padding-left: 8px;
+    z-index: 500;
+    background-color: rgba(0, 0, 0, 0.938);
+    color: white;
+}
+
+.info-modal h2 {
+    color: white;
+    font-size: 24px;
+}
+
+.info-modal span {
+    font-size: 16px;
+    padding: 0px;
+}
+
+.info-modal ul {
+    margin: 40px 0;
+}
+
+.info-modal > ul > li > span > a {
+    color: white;
+}
+
+.hard-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;   
+    padding-left: 8px;
+    z-index: 500;
+    background-color: rgba(0, 0, 0, 0.938);
+    color: white;
+}
+
+.hard-modal > ul {
+    margin: 18px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hard-modal h2 {
+    color: white;
+    font-size: 24px;
+    padding-top: 24px;
+}
+
+.hard-modal span {
+    font-size: 16px;
+    padding: 0px;
+}
+
+.hard-modal > ul > li > span > a {
+    color: white;
+}
+
+.soft-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;   
+    z-index: 500;
+    background-color: rgba(0, 0, 0, 0.938);
+    color: white;
+}
+
+.soft-modal h2 {
+    color: white;
+    font-size: 24px;
+    padding-top: 24px;
+}
+
+.soft-modal span {
+    font-size: 16px;
+    padding: 0px;
+}
+
+.soft-modal ul {
+    margin: 18px 36px 18px 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.soft-modal > ul > li > span > a {
+    color: white;
+}
+
+.interesses-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;   
+    z-index: 500;
+    background-color: rgba(0, 0, 0, 0.938);
+    color: white;
+}
+
+.interesses-modal h2 {
+    color: white;
+    font-size: 24px;
+    padding-top: 24px;
+}
+
+.interesses-modal span {
+    font-size: 16px;
+    padding: 0px;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+.interesses-modal ul {
+    margin: 18px 36px 18px 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.interesses-modal > ul > li > span > a {
+    color: white;
+}
+
+.fechar {
+    position: absolute;
+    top: 46px;
+    right: 24px;
+    font-size: 50px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-shadow: 1px 2px 20px black;
+    height: 54px;
+    width: 54px;
+    z-index: 500;
+    padding-bottom: 8px;
+    padding-right: 1px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+    
+.fechar:hover{
+    transform: scale(1.1);
+}
