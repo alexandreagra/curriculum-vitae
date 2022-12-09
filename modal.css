@@ -29,7 +29,7 @@
 }
 
 .info-modal li {
-    margin-bottom: -8px;
+    margin-bottom: -4px;
 }
 
 .info-modal > ul > li > span > a {
@@ -111,8 +111,6 @@
 }
 
 .soft-modal ul .modal-li {
-    display: flex;
-    flex-wrap: nowrap;
     margin-left: 0;
     justify-content: space-around;
 } 
@@ -127,10 +125,11 @@
     margin: 16px 36px 16px 8px;
     display: flex;
     flex-direction: column;
+
 }
 
 .soft-modal li {
-    margin-bottom: -16px;
+    margin-bottom: -8px;
 }
 
 .soft-modal > ul > li > span > a {
