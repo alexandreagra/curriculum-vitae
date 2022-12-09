@@ -8,7 +8,7 @@
     z-index: 500;
     background-color: rgba(0, 0, 0, 0.986);
     color: white;
-    animation: appear .8s backwards;
+    animation: from-top .8s forwards;
 }
 
 .info-modal hr {
@@ -50,7 +50,7 @@
     z-index: 500;
     background-color: rgba(0, 0, 0, 0.986);
     color: white;
-    animation: appear .8s backwards;
+    animation: from-top .8s forwards;
 }
 
 .hard-modal hr {
@@ -107,7 +107,7 @@
     z-index: 500;
     background-color: rgba(0, 0, 0, 0.986);
     color: white;
-    animation: appear .8s backwards;
+    animation: from-top .8s forwards;
 }
 
 .soft-modal hr {
@@ -149,7 +149,7 @@
 
 .soft-modal li {
     margin-bottom: -16px;
-    width: 408px;
+    width: 416px;
 }
 
 .soft-modal > ul > li > span > a {
@@ -165,7 +165,7 @@
     z-index: 500;
     background-color: rgba(0, 0, 0, 0.986);
     color: white;
-    animation: appear .8s forwards;
+    animation: from-top .8s forwards;
 }
 
 .interesses-modal hr {
