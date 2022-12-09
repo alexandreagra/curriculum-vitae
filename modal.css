@@ -11,15 +11,11 @@
     animation: from-top .8s forwards;
 }
 
-.info-modal hr {
-    background-color: white;
-    margin-top: 16px !important;
-}
-
 .info-modal h2 {
     color: white;
     font-size: 24px;
     margin-left: 4px;
+    margin-top: 24px;
 }
 
 .info-modal span {
@@ -28,7 +24,7 @@
 }
 
 .info-modal ul {
-    margin: 44px 0;
+    margin: 16px 36px 16px 20px;
     margin-left: 8px;    
 }
 
@@ -52,12 +48,6 @@
     animation: from-top .8s forwards;
 }
 
-.hard-modal hr {
-    background-color: white;
-    margin-left: 20px !important;
-    margin-top: 16px !important;
-}
-
 .hard-modal h2 {
     color: white;
     font-size: 24px;
@@ -71,7 +61,7 @@
 }
 
 .hard-modal ul {
-    margin: 18px 36px 18px 8px;
+    margin: 16px 36px 16px 8px;
     display: flex;
     flex-direction: column;
 }
@@ -108,12 +98,6 @@
     animation: from-top .8s forwards;
 }
 
-.soft-modal hr {
-    background-color: white;
-    margin-left: 20px !important;
-    margin-top: 16px !important;
-}
-
 .soft-modal h2 {
     color: white;
     font-size: 24px;
@@ -140,7 +124,7 @@
 }
 
 .soft-modal ul {
-    margin: 20px 36px 20px 8px;
+    margin: 16px 36px 16px 8px;
     display: flex;
     flex-direction: column;
 }
@@ -165,11 +149,6 @@
     animation: from-top .8s forwards;
 }
 
-.interesses-modal hr {
-    background-color: white;
-    margin-top: 16px !important;
-}
-
 .interesses-modal h2 {
     color: white;
     font-size: 24px;
@@ -185,7 +164,7 @@
 }
 
 .interesses-modal ul {
-    margin: 18px 36px 18px 8px;
+    margin: 16px 36px 16px 20px;
     display: flex;
     flex-direction: column;
 }

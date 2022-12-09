@@ -35,7 +35,6 @@ nav > ul {
     display: flex;
     box-sizing: border-box;
     justify-content: space-between;
-
 }
 
 div {
@@ -203,14 +202,12 @@ header > h1 {
 display: none;
 }
 
-#lado-direito {
-display: none;
+hr {
+    display: none;
 }
 
-#modais hr {
-    display: flex;
-    margin-left: 12px;
-    width: 788px;
+#lado-direito {
+display: none;
 }
 
 #inicio {
@@ -315,11 +312,11 @@ div > h2 {
 }
 
 @keyframes from-left {
-    100% {
+    0% {
         transform: translateX(-50px);
         opacity: 0;
     }
-    0% {
+    100% {
         transform: translateX(0px);
         opacity: 1;
     }
