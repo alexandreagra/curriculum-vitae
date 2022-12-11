@@ -297,8 +297,6 @@ div > h2 {
     text-align: left;
 }
 
-}
-
 @keyframes from-top {
     0% {
         transform: translateY(-50px);
