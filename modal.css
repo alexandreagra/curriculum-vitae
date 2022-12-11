@@ -14,8 +14,8 @@
 .info-modal h2 {
     color: white;
     font-size: 24px;
-    margin-left: 4px;
-    margin-top: 24px;
+    margin-left: 8px;
+    margin-top: 44px;
 }
 
 .info-modal span {
@@ -51,8 +51,8 @@
 .hard-modal h2 {
     color: white;
     font-size: 24px;
-    padding-top: 24px;
-    margin-left: 20px;
+    margin-top: 44px;
+    margin-left: 4px;
 }
 
 .hard-modal > box-icon {
@@ -61,7 +61,7 @@
 }
 
 .hard-modal ul {
-    margin: 16px 36px 16px 8px;
+    margin: 16px 36px 16px 24px;
     display: flex;
     flex-direction: column;
 }
@@ -78,7 +78,7 @@
     text-align: justify;
 }
 
-.hard-modal li {
+.hard-modal ul li {
     margin-bottom: -8px;
 }
 
@@ -101,12 +101,11 @@
 .soft-modal h2 {
     color: white;
     font-size: 24px;
-    padding-top: 24px;
-    margin-left: 20px;
+    padding-top: 44px;
+    margin-left: 8px;
 }
 
 .soft-modal > box-icon {
-    display: inline;
     margin: auto;
 }
 
@@ -122,14 +121,15 @@
 }
 
 .soft-modal ul {
-    margin: 16px 36px 16px 8px;
+    margin: 16px 36px 16px 20px;
     display: flex;
     flex-direction: column;
 
 }
 
-.soft-modal li {
-    margin-bottom: -8px;
+.soft-modal ul li {
+    margin-bottom: -12px;
+    padding: 8px;
 }
 
 .soft-modal > ul > li > span > a {
@@ -151,8 +151,8 @@
 .interesses-modal h2 {
     color: white;
     font-size: 24px;
-    padding-top: 24px;
-    margin-left: 4px;
+    margin-top: 44px;
+    margin-left: 8px;
 }
 
 .interesses-modal span {

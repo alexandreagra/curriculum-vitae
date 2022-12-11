@@ -37,24 +37,24 @@ nav > ul {
     justify-content: space-between;
 }
 
-div {
+#lado-esquerdo {
+    margin: 40px auto;
+    padding: 0px 40px;
+}
+
+#lado-esquerdo div {
     padding: 20px 0px;
 }
 
-div > h2 {
+#lado-esquerdo div > h2 {
     font-size: 32px;
     font-weight: 500;
 }
 
-div > p {
+#lado-esquerdo div > p {
     font-size: 20px;
     padding-bottom: 36px;
     text-align: justify;
-}
-
-#lado-esquerdo {
-    margin: 40px auto;
-    padding: 0px 40px;
 }
 
 .resumo > p{
@@ -71,18 +71,18 @@ div > p {
     animation: from-right 1s backwards;
 }
 
-hr {
+#lado-direito hr {
     height: 1px;
     background-color: black;
     border: none;
 }
 
-ul {
+#lado-direito ul {
     margin: 40px auto;
     padding: 0px;
 }
 
-ul > h2 {
+#lado-direito ul > h2 {
     font-size: 32px;
     padding: 0px 8px;
     font-weight: 700;
@@ -172,8 +172,7 @@ header > h1 {
     }
     
     nav > ul > li {
-       font-weight: 700;   
-    
+       font-weight: 700;     
     }
     
     nav > ul > li > a {
@@ -234,11 +233,11 @@ header {
 }
 
 header > h1 {
-font-size: 28px;
-font-weight: 900;
-text-align: center;
-margin: 24px auto;
-color: white;
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+    margin: 24px auto;
+    color: white;
 }
 
 nav {
@@ -279,7 +278,7 @@ section {
     padding: 0px;
 }
 
-div > p {
+#lado-esquerdo div > p {
     font-size: 16px;
     text-align: justify;
 }
