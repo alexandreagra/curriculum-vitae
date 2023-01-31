@@ -297,6 +297,12 @@ div > h2 {
     text-align: left;
 }
 
+#sintese {
+    line-height: 40px;
+}
+
+}
+
 @keyframes from-top {
     0% {
         transform: translateY(-50px);
@@ -340,4 +346,3 @@ div > h2 {
         opacity: 1;
     }
 }
-
